@@ -144,6 +144,14 @@ The user **`employee`** downloaded and silently installed the Tor Browser on **`
 
 ## Response Taken
 
-TOR usage was confirmed on the endpoint `eric-threat-hun` by the user `employee`. The device was isolated, and the user's direct manager was notified.
+Following the confirmation of TOR usage on the endpoint **eric-threat-hun** by the user **employee**, immediate containment measures were implemented. The device was **isolated** by placing it in a restricted network segment, effectively revoking its access to prevent any further unauthorized connections or potential data exfiltration.
+
+Management was promptly informed of the findings. The user’s direct manager received a preliminary report detailing the installation and active use of the TOR browser, as well as suspicious network activity. 
+
+To address the incident, the employee will undergo an interview to determine intent and assess any potential policy violations. Concurrently, security teams will review and reinforce policies concerning anonymized browsing and access control. To prevent further unauthorized TOR usage, enhanced endpoint monitoring will be implemented, focusing on detecting similar network behaviors.
+
+If the investigation confirms any deliberate security policy breaches, the case will be escalated to HR and security leadership for further disciplinary action. Additionally, security teams will take proactive measures, including blocking known TOR entry nodes and enforcing stricter firewall rules to mitigate the risk of similar incidents occurring in the future.
+
+This response ensures that security controls are strengthened while aligning with organizational policies and compliance requirements.
 
 ---
