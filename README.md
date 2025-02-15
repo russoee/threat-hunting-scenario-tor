@@ -38,7 +38,7 @@ DeviceFileEvents
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, Account = InitiatingProcessAccountName, SHA256
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/71402e84-8767-44f8-908c-1805be31122d">
+<img width="1212" alt="image" src="https://github.com/user-attachments/assets/2d9bcdb7-2c37-44c8-be9b-fd94272b2dc2">
 
 ---
 
@@ -54,7 +54,7 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser"
 | project Timestamp, DeviceName, ActionType, ProcessCommandLine, Account = InitiatingProcessAccountName, FileName, FolderPath, SHA256
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<img width="1212" alt="image" src="https://github.com/user-attachments/assets/35315585-a6b4-488f-9014-67dec93b707f">
 
 ---
 
@@ -71,7 +71,7 @@ DeviceProcessEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, ActionType, ProcessCommandLine, Account = InitiatingProcessAccountName, FileName, FolderPath, SHA256
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
+<img width="1212" alt="image" src="https://github.com/user-attachments/assets/ce1e0e70-68f7-4566-9111-f80327f2efbc">
 
 ---
 
@@ -99,7 +99,11 @@ DeviceNetworkEvents
 ```
 
 
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/87a02b5b-7d12-4f53-9255-f5e750d0e3cb">
+<img width="1212" alt="image" src="https://github.com/user-attachments/assets/0140f9b1-00de-465f-8f0a-c58a7b896761">
+
+---
+
+<img width="1212" alt="image" src="https://github.com/user-attachments/assets/8ef59676-07d3-4da8-8b16-3cbf68bc78f0">
 
 ---
 
