@@ -144,6 +144,6 @@ The user **"employee"** downloaded and silently installed the Tor Browser on **"
 
 ## Response Taken
 
-TOR usage was confirmed on the endpoint `threat-hunt-lab` by the user `employee`. The device was isolated, and the user's direct manager was notified.
+TOR usage was confirmed on the endpoint `eric-threat-hun` by the user `employee`. The device was isolated, and the user's direct manager was notified.
 
 ---
