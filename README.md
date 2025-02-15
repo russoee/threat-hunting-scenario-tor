@@ -144,7 +144,7 @@ The user **`employee`** downloaded and silently installed the Tor Browser on **`
 
 ## Response Taken
 
-Following the confirmation of TOR usage on the endpoint **eric-threat-hun** by the user **employee**, immediate containment measures were implemented. The device was **isolated** by placing it in a restricted network segment, effectively revoking its access to prevent any further unauthorized connections or potential data exfiltration.
+Following the confirmation of TOR usage on the endpoint `eric-threat-hun` by the user `employee`, immediate containment measures were implemented. The device was isolated by placing it in a restricted network segment, effectively revoking its access to prevent any further unauthorized connections or potential data exfiltration.
 
 Management was promptly informed of the findings. The user’s direct manager received a preliminary report detailing the installation and active use of the TOR browser, as well as suspicious network activity. 
 
