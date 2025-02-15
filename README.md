@@ -54,7 +54,7 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser"
 | project Timestamp, DeviceName, ActionType, ProcessCommandLine, Account = InitiatingProcessAccountName, FileName, FolderPath, SHA256
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/35315585-a6b4-488f-9014-67dec93b707f">
+<img width="1212" alt="image" src="https://github.com/user-attachments/assets/3c1e4c4a-958e-405c-acd5-d942b7b40029">
 
 ---
 
