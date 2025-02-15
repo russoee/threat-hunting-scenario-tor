@@ -135,9 +135,10 @@ DeviceNetworkEvents
 ---
 
 ## Summary
+# Summary of Events
 
-  On February 12, 2025, around 01:38Z (with logs marking the local time as February 11, 2025, 8:42 PM), the user "employee" downloaded and silently installed the Tor Browser on "eric-threat-hun." Within minutes, the browser connected to a Tor relay node, confirming active Tor usage. Multiple process entries for tor.exe, tor-browser.exe, and firefox.exe indicate continued usage of Tor for anonymized traffic. Additionally, a file named "tor-shopping-list.txt" was created on the desktop, suggesting that the user may have been documenting or planning activities while using Tor. 
-  Expanded network queries further revealed that the user accessed not only Tor-specific ports but also clearnet sites, pointing to a mixture of anonymized and non-anonymized browsing. These findings directly align with management’s suspicion that an employee might be bypassing network security controls via Tor.
+The user **"employee"** downloaded and silently installed the Tor Browser on **"eric-threat-hun"** sometime around `2025-02-12T01:38Z` (with logs marking the local time as February 11, 2025, 8:42 PM). Within minutes, the browser connected to a Tor relay node, confirming active Tor usage. Multiple process entries (for `tor.exe`, `tor-browser.exe`, and `firefox.exe`) indicate continued usage of Tor for anonymized traffic. A “tor-shopping-list.txt” file was also created on the desktop, suggesting the user may have been documenting or planning activities while using Tor. Expanded network queries revealed that the user not only used Tor-specific ports but also accessed clearnet sites, pointing to a mixture of anonymized and non-anonymized browsing. These findings directly align with management’s suspicion that an employee might be bypassing network security controls via Tor.
+
 
 ---
 
