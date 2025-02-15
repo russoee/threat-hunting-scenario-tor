@@ -1,4 +1,4 @@
-<img width="400" src="https://github.com/user-attachments/assets/44bac428-01bb-4fe9-9d85-96cba7698bee" alt="Tor Logo with the onion and a crosshair on it"/>
+<img width="400" src="https://files.oaiusercontent.com/file-7GDLUTYDi6ZG3ZsW2a8cur?se=2025-02-15T22%3A21%3A09Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Da65aa778-3f3a-4498-85c2-dc670f7d6c14.webp&sig=F%2BxJoprbQHq4IBZW7VWrIcR5522tk6x6VJnVZutMoUM%3D" alt="Tor Logo with the onion and a crosshair on it"/>
 
 # Threat Hunt Report: Unauthorized TOR Usage
 - [Scenario Creation](https://github.com/russoee/Threat_Hunt_Event_-TOR-Usage-.md)
