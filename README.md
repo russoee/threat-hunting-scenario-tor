@@ -11,13 +11,13 @@
 
 ##  Scenario
 
-Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyze related security incidents to mitigate potential risks. If any use of TOR is found, notify management.
+Management suspects that certain employees might be using the TOR browser to circumvent network security controls. Recent network logs have revealed unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, anonymous reports suggest that employees have been discussing methods to access restricted sites during work hours. The objective is to identify any TOR activity, investigate related security incidents, and mitigate potential risks. If TOR usage is detected, management should be informed immediately.
 
 ### High-Level TOR-Related IoC Discovery Plan
+- Review **DeviceFileEvents** for any instances of `tor(.exe)` or `firefox(.exe)` file activity.  
+- Analyze **DeviceProcessEvents** for indications of TOR installation or execution.  
+- Examine **DeviceNetworkEvents** for outgoing connections over known TOR ports.  
 
-- **Check `DeviceFileEvents`** for any `tor(.exe)` or `firefox(.exe)` file events.
-- **Check `DeviceProcessEvents`** for any signs of installation or usage.
-- **Check `DeviceNetworkEvents`** for any signs of outgoing connections over known TOR ports.
 
 ---
 
